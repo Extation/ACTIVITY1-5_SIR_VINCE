@@ -2,7 +2,12 @@
 
 Quick commands to run Activities 1-5.
 
----
+-------------------------------------------------------------------------------------
+
+KILL ALL RUNNUNG PROCESSES FIRST TO MAKE SURE THERE ARE NO PROBLEMS WHEN THE PORTS ARE RUNNING.
+
+RUN THIS COMMAND
+-taskkill /f /IM node.exe
 
 ## 📌 Ports
 
@@ -14,7 +19,7 @@ Quick commands to run Activities 1-5.
 | Activity 4 | 3004 | 3104 |
 | Activity 5 | 3005 | 3105 |
 
----
+-------------------------------------------------------------------------------------
 
 ## Activity 1: To-Do List
 
@@ -133,5 +138,6 @@ npm install
 
 
 -------------------------------------------------------------------------------------
+
 
 
