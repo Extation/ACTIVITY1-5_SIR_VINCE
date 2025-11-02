@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+package-lock.json
+<<<<<<< HEAD
+yarn.lock
+=======
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+>>>>>>> 672806310839add005ba5a344faa1759d5c0677b
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+<<<<<<< HEAD
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+=======
+# Build outputs
+dist/
+build/
+*.log
+>>>>>>> 672806310839add005ba5a344faa1759d5c0677b
+
+# IDE
+.vscode/
+.idea/
+<<<<<<< HEAD
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Testing
+coverage/
+.nyc_output
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+=======
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.rar
+>>>>>>> 672806310839add005ba5a344faa1759d5c0677b

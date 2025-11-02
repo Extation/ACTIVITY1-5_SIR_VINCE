@@ -1,0 +1,24 @@
+FRONTEND
+Language: JavaScript 
+Framework/Library: React 18.2.0
+Build Tool: React Scripts 5.0.1 (Create React App)
+
+
+BACKEND
+Language: TypeScript 
+Framework: NestJS
+Runtime: Node.js
+ORM: TypeORM
+
+
+DATABASE
+Type: SQLite 3 (sqlite3 5.1.7)
+Database File: bookshelf.db
+ORM Integration: TypeORM with SQLite adapter
+
+
+API DOCUMENTATION
+Tool: Postman
+Features Documented:
+Complete REST API endpoints (GET, POST, PUT, DELETE)
+

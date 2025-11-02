@@ -1,0 +1,13 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Blog Platform Full Stack Application - Project configuration file defining metadata, scripts for running backend and frontend concurrently, and development dependencies for the root workspace.",
+  "scripts": {
+    "start:dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend-nestjs && npm run start:dev",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

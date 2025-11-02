@@ -476,9 +476,9 @@ curl -X DELETE "http://localhost:3000/api/weather/history"
 
 ### API Endpoints Summary
 
-| Method | Endpoint | Description | Query Parameters | Response |
-|--------|----------|-------------|------------------|----------|
-| GET | `/api/weather` | Get current weather for a city | `city` (required) | Weather object (200) |
+| Method | Endpoint | Description | Request Body | Response |
+|--------|----------|-------------|--------------|----------|
+| GET | `/api/weather` | Get current weather for a city | None (query: `?city={cityName}`) | Weather object (200) |
 | GET | `/api/weather/history` | Get last 50 weather searches | None | Array of weather logs (200) |
 | DELETE | `/api/weather/history` | Clear all search history | None | Deletion confirmation (200) |
 
